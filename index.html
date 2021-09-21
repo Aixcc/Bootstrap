@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Aixcc</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+			crossorigin="anonymous" />
+		<link rel="stylesheet" href="./style.css">
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<!-- nav-bar -->
+		<!-- navbar-expand-lg 为navbar绑定一个响应尺寸为 lg ≥992px -->
+		<nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+			<div class="container">
+				<a href="#" class="navbar-brand">Aixcc</a>
+				<!-- 汉堡按钮 -->
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navmenu">
+					<!-- ms-auto === margin-strat === margin left-->
+					<ul class="navbar-nav ms-auto">
+						<li class="nav-item">
+							<div class="nav-link">前端知识</div>
+						</li>
+						<li class="nav-item">
+							<div class="nav-link">后端知识</div>
+						</li>
+						<li class="nav-item">
+							<div class="nav-link">数据库知识</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!--x nav-bar x-->
+
+		<section class="p-5 bg-dark text-light text-center text-md-start">
+			<!--同理 w-5-->
+			<div class="container">
+				<!-- d-flex === display:flex; -->
+				<div class="d-flex">
+					<div>
+						<!-- text-warning 在bootstrap中代表着颜色 -->
+						<h1>成为一个<span class="text-warning">前端工程师</span></h1>
+						<!-- my-4 === margin top margin b0ttom -->
+						<p class="my-4">
+							Lorem ipsum dolor sit amet,consectetur adipisicing elit.Asperiores distinctio magni
+							repellat dignissimos
+						</p>
+						<button class="btn btn-primary btn-lg">开始编程之旅</button>
+					</div>
+					<!-- w-50" === width 50%  d-none (默认消失)d-md-block(距离超过md就block)-->
+					<img src="./img/showcase.svg" alt="showcase" class="w-50 d-none d-md-block">
+				</div>
+			</div>
+		</section>
+
+		<section class="p-5 bg-primary text-light">
+			<div class="container">
+				<div class="d-md-flex justify-content-between align-items-center">
+					<h3 class="mb-3">现在注册账号开始编程之旅吧</h3>
+					<div class="input-group news-input">
+						<input type="text" class="form-control" placeholder="请输入你的邮箱">
+						<button type="button" class="btn btn-dark btn-lg">注册</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="p-5">
+			<div class="container">
+				<!-- g-4 === gap 4 -->
+				<div class="row g-4">
+					<div class="col-md">
+						<div class="card bg-dark text-light">
+							<div class="card-body text-center">
+								<div class="card-title ">前端知识</div>
+								<div class="card-text ">Lorem ipsum dolor sit amet, consectetur adipisicing
+									elit.
+									Accusantium consectetur quibusdam eius </div>
+								<a href="#" class="btn btn-primary mt-2">学习前端</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md">
+						<div class="card bg-secondary text-light">
+							<div class="card-body text-center">
+								<div class="card-title">后端知识</div>
+								<div class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+									elit.
+									Accusantium consectetur quibusdam eius </div>
+								<a href="#" class="btn btn-dark mt-2">学习后端</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md">
+						<div class="card bg-dark text-light">
+							<div class="card-body text-center">
+								<div class="card-title">数据库知识</div>
+								<div class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+									elit.
+									Accusantium consectetur quibusdam eius </div>
+								<a href="#" class="btn btn-primary mt-2">学习数据库</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="p-5">
+			<div class="container">
+				<div class="row justify-content-between align-items-center">
+					<div class="col">
+						<!--img-fluid maxwidth:100%  height auto-->
+						<img src="./img/1.svg" alt="1" class="img-fluid">
+					</div>
+					<div class="col-md p-5">
+						<h2>课程介绍</h2>
+						<!-- lead === font-size 1.2rem font-weight 300 -->
+						<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi dicta a
+							mollitia doloremque maiores illum.</p>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum reprehenderit consequatur
+							vel ipsa omnis placeat nemo totam ut obcaecati repudiandae illum a fugiat labore officiis
+							perferendis deserunt quia fugit itaque.
+						</p>
+						<a href="#" class="btn btn-light">查看更多</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="p-5 bg-dark text-light">
+			<div class="container">
+				<div class="row justify-content-between align-items-center">
+					<div class="col-md p-5">
+						<h2>课程介绍</h2>
+						<!-- lead === font-size 1.2rem font-weight 300 -->
+						<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi dicta a
+							mollitia doloremque maiores illum.</p>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum reprehenderit consequatur
+							vel ipsa omnis placeat nemo totam ut obcaecati repudiandae illum a fugiat labore officiis
+							perferendis deserunt quia fugit itaque.
+						</p>
+						<a href="#" class="btn btn-light">查看更多</a>
+					</div>
+					<div class="col">
+						<!--img-fluid maxwidth:100%  height auto-->
+						<img src="./img/2.svg" alt="2" class="img-fluid">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="p-5">
+			<div class="container">
+				<h2 class="text-center">常见问题</h2>
+				<!-- 手风琴组件 Accordion 默认展开 使用show-->
+				<div class="accordion accordion-flush" id="accordionFlushExample">
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="flush-headingOne">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+								data-bs-target="#flush-collapseOne" aria-expanded="false"
+								aria-controls="flush-collapseOne">
+								Accordion Item #1
+							</button>
+						</h2>
+						<div id="flush-collapseOne" class="accordion-collapse collapse show"
+							aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+							<div class="accordion-body">Placeholder content for this accordion, which is intended to
+								demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion
+								body.</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="flush-headingTwo">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+								data-bs-target="#flush-collapseTwo" aria-expanded="false"
+								aria-controls="flush-collapseTwo">
+								Accordion Item #2
+							</button>
+						</h2>
+						<div id="flush-collapseTwo" class="accordion-collapse collapse"
+							aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+							<div class="accordion-body">Placeholder content for this accordion, which is intended to
+								demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion
+								body. Let's imagine this being filled with some actual content.</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="flush-headingThree">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+								data-bs-target="#flush-collapseThree" aria-expanded="false"
+								aria-controls="flush-collapseThree">
+								Accordion Item #3
+							</button>
+						</h2>
+						<div id="flush-collapseThree" class="accordion-collapse collapse"
+							aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+							<div class="accordion-body">Placeholder content for this accordion, which is intended to
+								demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion
+								body. Nothing more exciting happening here in terms of content, but just filling up the
+								space to make it look, at least at first glance, a bit more representative of how this
+								would look in a real-world application.</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="p-5 bg-primary">
+			<div class="container">
+				<h2 class="text-center text-light">讲师介绍</h2>
+				<p class="lead text-center text-white mb-5">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus dolores beatae
+				</p>
+				<div class="row g-4">
+					<div class="col-md-6 col-lg-3">
+						<div class="card bg-light">
+							<div class="card-body text-center ">
+								<!-- rounded-circle 圆角设置 -->
+								<img src="img/01-man.jpeg" alt="01" class="mb-3 rounded-circle">
+								<h3 class="card-title">Aixcc</h3>
+								<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi
+									incidunt veniam enim quaerat doloribus assumenda. </p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3">
+						<div class="card bg-light">
+							<div class="card-body text-center ">
+								<!-- rounded-circle 圆角设置 -->
+								<img src="img/02-man.jpeg" alt="02" class="mb-3 rounded-circle">
+								<h3 class="card-title">Aixcc</h3>
+								<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi
+									incidunt veniam enim quaerat doloribus assumenda. </p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3">
+						<div class="card bg-light">
+							<div class="card-body text-center ">
+								<!-- rounded-circle 圆角设置 -->
+								<img src="img/03-man.jpeg" alt="03" class="mb-3 rounded-circle">
+								<h3 class="card-title">Aixcc</h3>
+								<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi
+									incidunt veniam enim quaerat doloribus assumenda. </p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3">
+						<div class="card bg-light">
+							<div class="card-body text-center ">
+								<!-- rounded-circle 圆角设置 -->
+								<img src="img/04-man.jpeg" alt="04" class="mb-3 rounded-circle">
+								<h3 class="card-title">Aixcc</h3>
+								<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi
+									incidunt veniam enim quaerat doloribus assumenda. </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="p-5">
+			<div class="container">
+				<h2 class="text-center mb-4">联系我们</h2>
+				<ul class="list-group list-group-flush">
+				  <li class="list-group-item">电话：159xxxx8899</li>
+				  <li class="list-group-item">邮箱：228xxxxxxx@qq.com</li>
+				  <li class="list-group-item">地址:浙江省xxx区</li>
+				</ul>
+			</div>
+		</section>
+		
+		<footer class="p-5 bg-dark text-white text-center">
+			<div class="container">
+				<p class="lead">Copyright &nbsp; &nbsp; &copy; &nbsp;&nbsp;2021.09.21 &nbsp;&nbsp; Aixcc</p>
+			</div>
+		</footer>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+		</script>
+	</body>
+</html>
